@@ -1,0 +1,243 @@
+Synthed
+Copyright (c) 2026 Barry Buckle
+
+This product includes software developed by third parties. The following
+notices are required by the licenses of those components.
+
+===========================================================================
+
+AMAZON WEB SERVICES SDK FOR JAVASCRIPT
+Apache License 2.0
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+The following packages are part of the AWS SDK for JavaScript (v3) and the
+Smithy TypeScript code-generation runtime, all licensed under the Apache
+License, Version 2.0:
+
+  @aws-sdk/client-s3
+  @aws-sdk/core
+  @aws-sdk/crc64-nvme
+  @aws-sdk/credential-provider-env
+  @aws-sdk/credential-provider-http
+  @aws-sdk/credential-provider-ini
+  @aws-sdk/credential-provider-login
+  @aws-sdk/credential-provider-node
+  @aws-sdk/credential-provider-process
+  @aws-sdk/credential-provider-sso
+  @aws-sdk/credential-provider-web-identity
+  @aws-sdk/middleware-bucket-endpoint
+  @aws-sdk/middleware-expect-continue
+  @aws-sdk/middleware-flexible-checksums
+  @aws-sdk/middleware-host-header
+  @aws-sdk/middleware-location-constraint
+  @aws-sdk/middleware-logger
+  @aws-sdk/middleware-recursion-detection
+  @aws-sdk/middleware-sdk-s3
+  @aws-sdk/middleware-ssec
+  @aws-sdk/middleware-user-agent
+  @aws-sdk/nested-clients
+  @aws-sdk/region-config-resolver
+  @aws-sdk/signature-v4-multi-region
+  @aws-sdk/token-providers
+  @aws-sdk/types
+  @aws-sdk/util-arn-parser
+  @aws-sdk/util-endpoints
+  @aws-sdk/util-locate-window
+  @aws-sdk/util-user-agent-browser
+  @aws-sdk/util-user-agent-node
+  @aws-sdk/xml-builder
+  @aws/lambda-invoke-store
+  @aws-crypto/crc32
+  @aws-crypto/crc32c
+  @aws-crypto/sha1-browser
+  @aws-crypto/sha256-browser
+  @aws-crypto/sha256-js
+  @aws-crypto/supports-web-crypto
+  @aws-crypto/util
+  @smithy/chunked-blob-reader
+  @smithy/chunked-blob-reader-native
+  @smithy/config-resolver
+  @smithy/core
+  @smithy/credential-provider-imds
+  @smithy/eventstream-codec
+  @smithy/eventstream-serde-browser
+  @smithy/eventstream-serde-config-resolver
+  @smithy/eventstream-serde-node
+  @smithy/eventstream-serde-universal
+  @smithy/fetch-http-handler
+  @smithy/hash-blob-browser
+  @smithy/hash-node
+  @smithy/hash-stream-node
+  @smithy/invalid-dependency
+  @smithy/is-array-buffer
+  @smithy/md5-js
+  @smithy/middleware-content-length
+  @smithy/middleware-endpoint
+  @smithy/middleware-retry
+  @smithy/middleware-serde
+  @smithy/middleware-stack
+  @smithy/node-config-provider
+  @smithy/node-http-handler
+  @smithy/property-provider
+  @smithy/protocol-http
+  @smithy/querystring-builder
+  @smithy/querystring-parser
+  @smithy/service-error-classification
+  @smithy/shared-ini-file-loader
+  @smithy/signature-v4
+  @smithy/smithy-client
+  @smithy/types
+  @smithy/url-parser
+  @smithy/util-base64
+  @smithy/util-body-length-browser
+  @smithy/util-body-length-node
+  @smithy/util-buffer-from
+  @smithy/util-config-provider
+  @smithy/util-defaults-mode-browser
+  @smithy/util-defaults-mode-node
+  @smithy/util-endpoints
+  @smithy/util-hex-encoding
+  @smithy/util-middleware
+  @smithy/util-retry
+  @smithy/util-stream
+  @smithy/util-uri-escape
+  @smithy/util-utf8
+  @smithy/util-waiter
+  @smithy/uuid
+
+You may obtain a copy of the Apache License at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+===========================================================================
+
+GOOGLE CLOUD STORAGE CLIENT LIBRARY AND RELATED GOOGLE PACKAGES
+Apache License 2.0
+Copyright Google LLC. All Rights Reserved.
+
+The following packages are copyright Google LLC and licensed under the Apache
+License, Version 2.0:
+
+  @google-cloud/storage
+  @google-cloud/paginator
+  @google-cloud/projectify
+  @google-cloud/promisify
+  gaxios
+  gcp-metadata
+  google-auth-library
+  google-logging-utils
+  gtoken
+  teeny-request
+
+You may obtain a copy of the Apache License at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+===========================================================================
+
+ECDSA-SIG-FORMATTER
+Apache License 2.0
+Copyright (c) 2015 D2L Corporation
+
+  ecdsa-sig-formatter
+
+You may obtain a copy of the Apache License at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+===========================================================================
+
+BUFFER-EQUAL-CONSTANT-TIME
+BSD 3-Clause License
+Copyright (c) 2013, GoInstant Inc., a salesforce.com company
+
+  buffer-equal-constant-time
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+===========================================================================
+
+FAST-URI
+BSD 3-Clause License
+Copyright (c) 2021 Matteo Collina and fast-uri contributors
+
+  fast-uri
+
+(Same BSD 3-Clause terms as above apply.)
+
+===========================================================================
+
+LIGHT-MY-REQUEST
+BSD 3-Clause License
+Copyright (c) 2016 David Mark Clements; 2018 Matteo Collina; 2021 light-my-request contributors
+
+  light-my-request
+
+(Same BSD 3-Clause terms as above apply.)
+
+===========================================================================
+
+SECURE-JSON-PARSE
+BSD 3-Clause License
+Copyright (c) 2019, Luca Marescotti
+
+  secure-json-parse
+
+(Same BSD 3-Clause terms as above apply.)
+
+===========================================================================
+
+WEBIDL-CONVERSIONS
+BSD 2-Clause License
+Copyright (c) 2014, Domenic Denicola
+
+  webidl-conversions
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+===========================================================================
+
+For the complete list of dependencies and their individual license texts,
+refer to the node_modules directory or the package-lock.json file in the
+source repository.
