@@ -1,0 +1,35 @@
+{
+  "name": "synthed",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Synthetic data generator CLI, SDK, and API",
+  "type": "module",
+  "bin": {
+    "synthed": "./dist/cli/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli/index.ts",
+    "test": "vitest run",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "benchmark": "tsx benchmarks/throughput.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.908.0",
+    "@faker-js/faker": "^9.9.0",
+    "@google-cloud/storage": "^7.17.2",
+    "commander": "^14.0.1",
+    "fastify": "^5.6.1",
+    "seedrandom": "^3.0.5",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "@types/seedrandom": "^3.0.8",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

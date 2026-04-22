@@ -1,0 +1,21 @@
+version: "1"
+seed: 42
+jobs:
+  - id: apache-clean
+    generator: apache-access-log
+    recordCount: 100
+    output:
+      type: file
+      path: ./output/apache.log
+  - id: hl7-corrupt
+    generator: hl7v2
+    recordCount: 50
+    corrupt: true
+    corruptRate: 0.1
+    output:
+      type: file
+      path: ./output/hl7.hl7
+    manifest:
+      type: file
+      path: ./output/hl7.manifest.json
+

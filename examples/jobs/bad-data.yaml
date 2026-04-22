@@ -1,0 +1,50 @@
+version: "1"
+seed: 42
+jobs:
+  - id: hl7-bad
+    generator: hl7v2
+    recordCount: 100
+    corrupt: true
+    corruptRate: 0.15
+    output:
+      type: file
+      path: ./output/hl7-bad.hl7
+    manifest:
+      type: file
+      path: ./output/hl7-bad.manifest.json
+
+  - id: fhir-bad
+    generator: fhir-r4
+    recordCount: 25
+    corrupt: true
+    corruptRate: 0.1
+    output:
+      type: file
+      path: ./output/fhir-bad.json
+    manifest:
+      type: file
+      path: ./output/fhir-bad.manifest.json
+
+  - id: fix-bad
+    generator: fix
+    recordCount: 120
+    corrupt: true
+    corruptRate: 0.15
+    output:
+      type: file
+      path: ./output/fix-bad.fix
+    manifest:
+      type: file
+      path: ./output/fix-bad.manifest.json
+
+  - id: ofx-bad
+    generator: ofx
+    recordCount: 60
+    corrupt: true
+    corruptRate: 0.2
+    output:
+      type: file
+      path: ./output/ofx-bad.ofx
+    manifest:
+      type: file
+      path: ./output/ofx-bad.manifest.json
