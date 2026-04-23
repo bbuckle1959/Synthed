@@ -25,6 +25,13 @@ Typical use cases:
 - Parser hardening and negative testing
 - Validator regression checks using manifests
 
+| Feature | AI Generators | Synthed |
+| --- | --- | --- |
+| Requires Real Data | Yes (Training) | No (Schema-based) |
+| Deterministic Output | Rare | Always (via Seed) |
+| Intentional Corruption | No | Yes (Chaos Mode) |
+| Cost | High $$$ | Free (MIT) |
+
 ## 2) Supported Generators and Validators
 
 Registered generators include:
