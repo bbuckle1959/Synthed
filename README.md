@@ -1,5 +1,8 @@
 # Synthed Documentation
 
+
+> **Notice: Archived / As-Is Community Release** > This repository is published as a free, unmonetized community service. It is functionally complete, stable, and fully open-source. However, it is **not actively maintained**. No issues or pull requests will be reviewed. You are highly encouraged to fork this repository and adapt it to your own needs!
+
 Synthed is a TypeScript toolkit for generating deterministic synthetic test data across finance, healthcare, EDI, telecom, and logging formats. It includes:
 
 - A CLI for local and CI pipelines
